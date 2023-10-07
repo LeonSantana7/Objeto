@@ -7,7 +7,7 @@ const cartao = {
     produtos: [{
             nome: "Aguá",
             preco: 2,
-            quantidade: 1,
+            quantidade: 5,
         },
         {
             nome: "Picolé",
@@ -33,3 +33,6 @@ idade = 25;
 console.log(`Nova idade do Cliente: ${idade}
 Primeiro produto consumido: ${cartao.produtos[0].nome}
 Preço unitario do ultimo produto consumido: ${cartao.produtos[2].preco}`);
+
+// imprimir uma mensagem amigavel (incluindo o nome) que informa o valor a ser pago
+console.log(`Olá ${cartao.nomeCliente}, você terá que pagar o valor de R$: ${(cartao.produtos[0].preco) * (cartao.produtos[0].quantidade)} `)
