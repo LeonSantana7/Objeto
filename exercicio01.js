@@ -17,4 +17,7 @@ if(pessoa.temCNH === true){
 }
 
 console.log(`José tem ${pessoa.idade} anos, ${pessoa.altura}cm de altura,${pessoa.temCNH} 
-e os seguintes apelidos: ${pessoa.apelidos[0]}, ${pessoa.apelidos[1]}. `)
+e os seguintes apelidos: `)
+for (let apelido of pessoa.apelidos) {
+    console.log(` -${apelido}`);
+}
