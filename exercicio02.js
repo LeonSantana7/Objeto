@@ -7,7 +7,7 @@ const cartao = {
     produtos: [{
             nome: "Aguá",
             preco: 2,
-            quantidade: 5,
+            quantidade: 15,
         },
         {
             nome: "Picolé",
