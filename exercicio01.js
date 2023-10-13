@@ -17,3 +17,5 @@ e os seguintes apelidos: `)
 for (let apelido of pessoa.apelidos) {
     console.log(` -${apelido}`);
 }
+
+console.log("teste");
